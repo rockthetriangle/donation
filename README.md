@@ -3,10 +3,10 @@
 This is a non-profit charity website built using Next.js, JavaScript, and Tailwind CSS. The platform aims to support charitable causes by providing an easy way for users to learn about and donate to various initiatives.
 
 ## Repo URL
-[https://github.com/ankurjaiswalofficial/charity-app](https://github.com/ankurjaiswalofficial/charity-app)
+[https://github.com/rockthetriangle/donation](https://github.com/rockthetriangle/donation)
 
 ## Deployment URL
-[https://non-profit-charity-site.vercel.app/](https://non-profit-charity-site.vercel.app/)
+[https://rockthetriangle.com](https://rockthetriangle.com)
 
 ## Features
 - **Responsive Design**: Tailwind CSS ensures a responsive and visually appealing layout across all devices.
@@ -27,7 +27,7 @@ This is a non-profit charity website built using Next.js, JavaScript, and Tailwi
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ankurjaiswalofficial/charity-app.git
+   git clone https://github.com/rockthetriangle/donation.git
    ```
 2.  Navigate into the project directory:
 
@@ -68,7 +68,8 @@ npm run start
 
 ### Deployment
 
-This site is deployed using Vercel. You can access the live version at [https://non-profit-charity-site.vercel.app/](https://non-profit-charity-site.vercel.app/).
+This site is deployed using Vercel. You can access the live version at [https://donation-tan-psi.vercel.app
+/](https://donation-tan-psi.vercel.app/).
 
 Contributing
 ------------
