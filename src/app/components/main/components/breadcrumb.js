@@ -6,8 +6,8 @@ export default function BreadCrumb({ title, links, ...props }) {
     return (
         <div className="relative w-full h-80 flex flex-col justify-center items-center">
             <Image
-                src={"/img/large_poor_children_laughing2.jpg"}
-                alt="poor_children_laughing image"
+                src={"/img/wreckage.jpg"}
+                alt="wreckage image"
                 width={32 * 16}
                 height={32 * 9}
                 className="w-full h-full object-cover"

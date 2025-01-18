@@ -22,49 +22,6 @@ export default function Header() {
                 </Link>
                 <div className="flex flex-row flex-nowrap flex-grow justify-end items-center px-6 max-[745px]:px-4 h-full">
                     <nav className="flex jusitfy-center items-center gap-12 h-full">
-                        <ul className={`${menuOpen ? "flex" : "hidden"} min-[745px]:flex max-[745px]:absolute max-[745px]:w-full max-[745px]:top-20 max-[745px]:left-0 max-[745px]:bg-white max-[745px]:flex-wrap flex-row justify-center items-center gap-6 h-full rounded-lg`}>
-                            <li className="text-sm hover:text-orange-600">
-                                <Link href={"/"}>
-                                    <h4 className="text-inherit">Home</h4>
-                                </Link>
-                            </li>
-                            <li className="text-sm hover:text-orange-600">
-                                <Link href={"/causes"}>
-                                    <h4 className="text-inherit">Causes</h4>
-                                </Link>
-                            </li>
-                            <li className="text-sm hover:text-orange-600">
-                                <Link href={"/events"}>
-                                    <h4 className="text-inherit">Events</h4>
-                                </Link>
-                            </li>
-                            <li className="text-sm hover:text-orange-600">
-                                <Link href={"/volunteers"}>
-                                    <h4 className="text-inherit">Volunteers</h4>
-                                </Link>
-                            </li>
-                            <li className="text-sm hover:text-orange-600">
-                                <Link href={"/faq"}>
-                                    <h4 className="text-inherit">Faq</h4>
-                                </Link>
-                            </li>
-                            <li className="text-sm hover:text-orange-600">
-                                <Link href={"/about_us"}>
-                                    <InfoCircle
-                                        className="text-inherit"
-                                        color="rgb(107,114,128)"
-                                    />
-                                </Link>
-                            </li>
-                            <li className="text-sm hover:text-orange-600">
-                                <Link href={"/contact_us"}>
-                                    <Phone
-                                        className="text-inherit"
-                                        color="rgb(107,114,128)"
-                                    />
-                                </Link>
-                            </li>
-                        </ul>
                         <ul className="flex flex-row justify-center items-center gap-3 h-8">
                             <li className="text-xl">
                                 <h4

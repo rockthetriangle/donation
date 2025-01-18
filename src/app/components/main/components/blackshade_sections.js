@@ -6,8 +6,8 @@ export default function BlackShadeSection() {
     return (
         <div className="w-full relative max-h-[45rem] h-[35rem] max-[445px]:h-[40rem] overflow-hidden flex justify-center items-center">
             <Image
-                src={"/img/large_poor_children_laughing.jpg"}
-                alt="large_poor_children_laughing image"
+                src={"/img/large_helene.jpg"}
+                alt="helene wnc image"
                 width={1920}
                 height={1080}
                 className="w-full h-full object-cover"
