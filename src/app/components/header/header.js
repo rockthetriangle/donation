@@ -61,9 +61,9 @@ export default function Header() {
                 </Link>
               </li>
               <li className="text-sm hover:text-orange-600">
-                <Link href={"/contact_us"}>
+                <a href={"/contact_us"}>
                   <Phone className="text-inherit" color="rgb(107,114,128)" />
-                </Link>
+                </a>
               </li>
             </ul>
             <ul className="flex flex-row justify-center items-center gap-3 h-8">
