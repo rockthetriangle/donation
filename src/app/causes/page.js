@@ -18,7 +18,7 @@ export default function CausesPage() {
     // 2
     {
       src: "/img/refugees.jpg",
-      button_color: "red-600",
+      button_color: "cyan-400",
       title: "Shelter for Refugees",
       description:
         "Providing safe housing and support to displaced individuals and families.",

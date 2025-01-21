@@ -11,7 +11,7 @@ export default function ChooseUsSection() {
     const [paraText, setParaText] = React.useState(mission);
     return (
         <div className="relative flex flex-col justify-center items-center w-full h-96 py-14 gap-4 bg-black bg-opacity-80">
-            <h4 className="text-xl font-bold text-red-600 capitalize text-center">
+            <h4 className="text-xl font-bold text-cyan-400 capitalize text-center">
                 why choose us
             </h4>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white capitalize text-center">
@@ -30,7 +30,7 @@ export default function ChooseUsSection() {
             <div className="flex flex-row justify-start items-start gap-10 my-3">
                 <Button
                     type={"button"}
-                    color="red-600"
+                    color="cyan-400"
                     hovered
                     href="#mission"
                     text="mission"

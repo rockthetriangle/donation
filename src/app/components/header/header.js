@@ -27,32 +27,27 @@ export default function Header() {
                 menuOpen ? "flex" : "hidden"
               } min-[745px]:flex max-[745px]:absolute max-[745px]:w-full max-[745px]:top-20 max-[745px]:left-0 max-[745px]:bg-white max-[745px]:flex-wrap flex-row justify-center items-center gap-6 h-full rounded-lg`}
             >
-              <li className="text-sm hover:text-orange-600">
+              <li className="font-scada text-md hover:text-cyan-400">
                 <Link href={"/"}>
                   <h4 className="text-inherit">Home</h4>
                 </Link>
               </li>
-              <li className="text-sm hover:text-orange-600">
-                <Link href={"/causes"}>
-                  <h4 className="text-inherit">Causes</h4>
-                </Link>
-              </li>
-              <li className="text-sm hover:text-orange-600">
+              <li className="font-scada text-md hover:text-cyan-400">
                 <Link href={"/events"}>
                   <h4 className="text-inherit">Events</h4>
                 </Link>
               </li>
-              <li className="text-sm hover:text-orange-600">
+              <li className="font-scada text-md hover:text-cyan-400">
                 <Link href={"/volunteers"}>
                   <h4 className="text-inherit">Volunteers</h4>
                 </Link>
               </li>
-              <li className="text-sm hover:text-orange-600">
+              <li className="font-scada text-md hover:text-cyan-400">
                 <Link href={"/faq"}>
                   <h4 className="text-inherit">Faq</h4>
                 </Link>
               </li>
-              <li className="text-sm hover:text-orange-600">
+              <li className="text-sm hover:text-cyan-400">
                 <Link href={"/about_us"}>
                   <InfoCircle
                     className="text-inherit"
@@ -60,21 +55,13 @@ export default function Header() {
                   />
                 </Link>
               </li>
-              <li className="text-sm hover:text-orange-600">
+              <li className="text-sm hover:text-cyan-400">
                 <a href={"/contact_us"}>
                   <Phone className="text-inherit" color="rgb(107,114,128)" />
                 </a>
               </li>
             </ul>
             <ul className="flex flex-row justify-center items-center gap-3 h-8">
-              <li className="text-xl">
-                <h4
-                  className="text-inherit cursor-pointer"
-                  onClick={() => setOpen(!open)}
-                >
-                  <Search className="text-inherit" color="rgb(107,114,128)" />
-                </h4>
-              </li>
               <li className="w-[0.6px] h-full bg-gray-300 m-2"></li>
               <li className="hidden min-[745px]:block text-2xl">
                 <Link href={"#account"}>
@@ -93,7 +80,7 @@ export default function Header() {
               </li>
             </ul>
             <div className="max-[900px]:hidden flex justify-center items-center">
-              <Button href="/donate_now" text="Donate Now" color="red-600" />
+              <Button href="/donate_now" text="Donate Now" color="sky-950" />
             </div>
           </nav>
         </div>

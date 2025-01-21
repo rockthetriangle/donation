@@ -5,13 +5,10 @@ import BlogCard3 from "./blog_card3";
 export default function VolunteersSection() {
     return (
         <div className="flex flex-col justify-center items-center w-full h-auto py-14 gap-4">
-            <h4 className="text-xl font-bold text-red-600 capitalize text-center">
-                our volunteers
-            </h4>
-            <h2 className="flex flex-row flex-nowrap whitespace-nowrap justify-center items-center text-3xl font-bold text-black capitalize text-center">
-                meet with&nbsp;
+            <h2 className="flex flex-row flex-nowrap whitespace-nowrap justify-center items-center text-3xl font-scada text-sky-950 text-center mb-2">
+                Our Volunteers: &nbsp;
                 <span className="relative text-inherit">
-                    Volunteers
+                    The Heart of Hope
                     <Image
                         src={"/img/word_marker.png"}
                         alt="word_marker image"
@@ -21,26 +18,24 @@ export default function VolunteersSection() {
                     />
                 </span>
             </h2>
-            <p className="text-sm text-gray-500 text-center w-11/12">
-                Volunteers are the heartbeat of our donation site, breathing
-                life into every act of kindness and spreading hope with their
-                selfless devotion.
+            <p className="text-md text-gray-500 text-center w-11/12">
+                Our volunteers are the beating heart of our mission, bringing compassion, dedication, and love to every effort. Their selfless service creates lasting change, offering strength and hope to those in need. ❤️
             </p>
             <div className="flex flex-row flex-wrap justify-center items-center gap-5">
                 <BlogCard3
-                    src={"/img/person7.jpeg"}
-                    title={"Laura Smith"}
-                    button_color={"red-600"}
+                    src={"/img/sara.jpg"}
+                    title={"Sara S."}
+                    button_color={"cyan-400"}
                 />
                 <BlogCard3
-                    src={"/img/person8.jpeg"}
-                    title={"Daniel Mark"}
-                    button_color={"green-600"}
+                    src={"/img/shiloh.jpg"}
+                    title={"Shiloh S"}
+                    button_color={"emerald-400"}
                 />
                 <BlogCard3
-                    src={"/img/person6.jpeg"}
-                    title={"Laura Larsen"}
-                    button_color={"blue-600"}
+                    src={"/img/brad.jpg"}
+                    title={"Bradley S"}
+                    button_color={"sky-400"}
                 />
             </div>
         </div>
