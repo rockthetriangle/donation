@@ -73,6 +73,10 @@ export default function EventPageSection({ title }) {
               <p className="text-md text-slate-500">{event.contact}</p>
             </div>
           </div>
+          <div className="w-11/12 flex flex-row flex-nowrap justify-start items-start gap-4 pl-2">
+            {/* Ensure the embedded form renders correctly */}
+      		<div className="ml-embedded" data-form="HRAknV"></div>
+          </div>
         </div>
       </div>
     </div>
