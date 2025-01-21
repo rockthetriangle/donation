@@ -5,7 +5,7 @@ import BlogCard from "./blog_card";
 export default function BlogPostSection() {
     return (
         <div className="flex flex-col justify-center items-center w-full h-auto py-14 gap-4">
-            <h4 className="text-xl font-bold text-red-600 capitalize text-center">
+            <h4 className="text-xl font-bold text-cyan-400 capitalize text-center">
                 our blog post
             </h4>
             <h2 className="flex flex-row flex-nowrap whitespace-nowrap justify-center items-center text-3xl font-bold text-black capitalize text-center">

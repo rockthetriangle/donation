@@ -13,7 +13,6 @@ export default function VolunteersPage() {
                 links={[{ text: "Volunteers", href: "/volunteers" }]}
             />
             <VolunteersSection />
-            <ReviewSection />
             <VolunteersFormSection />
         </BasePage>
     );
