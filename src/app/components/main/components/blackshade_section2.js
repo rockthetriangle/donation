@@ -31,7 +31,7 @@ Your generosity plants the seeds of hope, strength, and restoration in the lives
                 className="max-[445px]:scale-125 sm:scale-110"
             />
             <Image
-                src={"/img/large_poor_children_laughing2.jpg"}
+                src={"/img/large_poor_children_laughing.jpg"}
                 width={32 * 16}
                 height={16 * 9}
                 alt="poor_children_bg"
