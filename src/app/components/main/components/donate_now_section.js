@@ -27,7 +27,6 @@ const DonateNowFormSection = () => {
       if (!response.ok) {
         throw new Error("Failed to create checkout session");
       }
-
       const { url } = await response.json();
       window.location.href = url;
     } catch (err) {
