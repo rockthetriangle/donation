@@ -19,9 +19,7 @@ export default function EventPageSection({ title }) {
                 <h1 className="text-3xl font-bold text-slate-800">
                     Upcoming Event - {title}
                 </h1>
-                <p className="text-xs text-slate-500">
-                    // Description from events page like title
-                </p>
+                <p className="text-xs text-slate-500"></p>
                 {[
                     ["Event Feature One", "Event Feature Two"],
                     ["Event Feature Three", "Event Feature Four"],
@@ -47,7 +45,6 @@ export default function EventPageSection({ title }) {
                         </div>
                     );
                 })}
-                // form location
             </div>
 
             <div className="flex flex-col justify-center-items-center p-6 flex-grow max-w-lg">
@@ -61,9 +58,7 @@ export default function EventPageSection({ title }) {
                             <h4 className="text-base font-scada text-slate-800">
                                 Event Date & Time
                             </h4>
-                            <p className="text-xs text-slate-500">
-                                // date form events page
-                            </p>
+                            <p className="text-xs text-slate-500"></p>
                         </div>
                     </div>
                     <div className="w-11/12 flex flex-row flex-nowrap justify-start items-start gap-4 pl-2">
@@ -72,9 +67,7 @@ export default function EventPageSection({ title }) {
                             <h4 className="text-base font-semibold text-slate-800">
                                 Event Venue
                             </h4>
-                            <p className="text-xs text-slate-500">
-                                // place from events page
-                            </p>
+                            <p className="text-xs text-slate-500"></p>
                         </div>
                     </div>
                     <div className="w-11/12 flex flex-row flex-nowrap justify-start items-start gap-4 pl-2">
@@ -83,9 +76,7 @@ export default function EventPageSection({ title }) {
                             <h4 className="text-base font-semibold text-slate-800">
                                 Contact Number
                             </h4>
-                            <p className="text-xs text-slate-500">
-                                // store number somewhere 
-                            </p>
+                            <p className="text-xs text-slate-500"></p>
                         </div>
                     </div>
                 </div>
