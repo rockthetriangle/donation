@@ -31,7 +31,7 @@ const DonateNowFormSection = () => {
 
           <div className="mt-8">
             <div className="text-center">
-              <p className="text-red-600">
+              <p className="text-cyan-400">
                 PayPal Client ID is not provided. Please contact the website
                 administrator.
               </p>

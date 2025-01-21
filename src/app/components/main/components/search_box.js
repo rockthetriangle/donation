@@ -36,7 +36,7 @@ export default function SearchBox({ props }) {
                         />
                         <button
                             type="submit"
-                            className="p-3 bg-red-600 text-white text-lg"
+                            className="p-3 bg-cyan-400 text-white text-lg"
                         >
                             <Search className="text-inherit" />
                         </button>

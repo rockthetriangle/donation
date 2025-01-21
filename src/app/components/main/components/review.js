@@ -68,8 +68,8 @@ export default function ReviewSection() {
                         height={32 * 16}
                         className="aspect-square rounded-full w-64 h-64 object-cover"
                     />
-                    <span className="absolute -top-2 left-0 w-56 h-56 -z-10 bg-red-600 rounded-full"></span>
-                    <span className="absolute bottom-0 -left-2 w-56 h-56 -z-10 bg-red-600 rounded-full"></span>
+                    <span className="absolute -top-2 left-0 w-56 h-56 -z-10 bg-cyan-400 rounded-full"></span>
+                    <span className="absolute bottom-0 -left-2 w-56 h-56 -z-10 bg-cyan-400 rounded-full"></span>
                 </div>
                 <div className="relative flex items-center justify-center m-4 z-20">
                     <Image

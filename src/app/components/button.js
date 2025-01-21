@@ -7,12 +7,12 @@ export default function Button({
     type = "a",
     href = "#button",
     text = "Button",
-    color = "black",
+    color = "sky-950",
     hovered = false,
     onClick = null,
     ...props
 }) {
-    const defaultClassName = `relative rounded-md p-3 px-5 text-white whitespace-nowrap uppercase font-semibold text-xs w-fit bg-${color}`;
+    const defaultClassName = `relative rounded-md p-3 px-5 text-white whitespace-nowrap uppercase font-scada text-xs w-fit bg-${color}`;
     const [className] = React.useState(
         props.className
             ? defaultClassName + " " + props.className

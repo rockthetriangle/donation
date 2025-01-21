@@ -7,7 +7,7 @@ export default function UrgentCausesSection() {
     return (
         <div className="flex flex-row flex-wrap justify-center items-center w-full h-auto py-14 gap-4 bg-orange-50">
             <div className="flex flex-col justify-start items-start max-w-sm gap-6 p-4 pl-6">
-                <h4 className="text-xl font-bold text-red-600 capitalize">
+                <h4 className="text-xl font-bold text-cyan-400 capitalize">
                     Urgent causes
                 </h4>
                 <h2 className="flex flex-row flex-wrap justify-start items-start text-3xl font-bold text-black capitalize">
@@ -35,7 +35,7 @@ export default function UrgentCausesSection() {
                     href="/causes"
                     text="view all causes"
                     hovered
-                    color="red-600"
+                    color="cyan-400"
                     className="scale-110"
                 />
             </div>
