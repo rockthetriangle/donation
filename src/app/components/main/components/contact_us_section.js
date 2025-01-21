@@ -6,7 +6,7 @@ export default function ContactUsFormSection() {
     return (
         <div className="flex flex-row flex-wrap justify-center items-center w-full h-auto py-16 gap-8 bg-white">
             <div className="relative w-full sm:w-[450px] h-96 m-10">
-                <div className="w-full h-full rounded-xl border-2 border-dashed border-red-600"></div>
+                <div className="w-full h-full rounded-xl border-2 border-dashed border-cyan-400"></div>
                 <Image
                     src={"/img/contact_us.jpg"}
                     alt="contact_us image"
@@ -15,7 +15,7 @@ export default function ContactUsFormSection() {
                     className="z-10 w-auto h-auto object-cover rounded-lg absolute -left-5 -bottom-5 border"
                 />
                 <div className="absolute -top-6 right-5 z-20 flex flex-row gap-2 justify-start items-center w-40 h-16 px-2 border-[0.85px] border-gray-300 rounded-lg overflow-hidden bg-white shadow-md shadow-gray-400">
-                    <h2 className="text-xl font-semibold text-white p-3 bg-red-600 rounded-lg">3.5</h2>
+                    <h2 className="text-xl font-semibold text-white p-3 bg-cyan-400 rounded-lg">3.5</h2>
                     <h5 className="text-sm font-semibold text-slate-950 p-1">Years Experience</h5>
                 </div>
                 <div className="absolute top-12 left-5 z-20 flex flex-row gap-2 justify-start items-center w-40 h-16 px-2 border-[0.85px] border-gray-300 rounded-lg overflow-hidden bg-white shadow-md shadow-gray-400">
@@ -32,7 +32,7 @@ export default function ContactUsFormSection() {
                 </div>
             </div>
             <div className="flex flex-col justify-start items-start sm:max-w-lg gap-7 p-4 pl-6 py-8">
-                <h4 className="text-xl font-bold text-red-600 capitalize">
+                <h4 className="text-xl font-bold text-cyan-400 capitalize">
                     need help
                 </h4>
                 <h2 className="flex flex-row flex-wrap justify-start items-start text-4xl font-bold text-slate-800 capitalize">
@@ -127,7 +127,7 @@ export default function ContactUsFormSection() {
                     </div>
                     <div className="flex flex-row flex-wrap  m-1 w-full">
                         <Button
-                            color="red-600"
+                            color="cyan-400"
                             href="#submit"
                             text="Send us a message"
                         />

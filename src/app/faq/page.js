@@ -6,48 +6,48 @@ import FaqSection from "../components/main/components/faq_section";
 export default function FaqPage() {
     const more_faqs = [
         {
-            title: "Is my donation tax-deductible?",
-            text: "Yes, your donation is tax-deductible. We'll provide you with the necessary documentation for tax purposes.",
+            title: "What is Rock the Triangle?",
+            text: "Rock the Triangle is a faith-driven nonprofit dedicated to providing resources, support, and hope to individuals and families facing hardship, rooted in Matthew 7:24-27.",
         },
         {
-            title: "Can I specify where my donation goes?",
-            text: "Absolutely! You can choose to support a specific cause or project when making your donation.",
+            title: "What services does Rock the Triangle provide?",
+            text: "We offer mentorship, crisis support, access to essential resources, workshops, and community-building programs to help individuals rebuild their lives with strength and purpose.",
         },
         {
-            title: "Are there different ways to donate?",
-            text: "Yes, you can donate online, set up recurring donations, or explore other options like donating goods or volunteering your time.",
+            title: "How can I get involved as a volunteer?",
+            text: "You can join as a mentor, event organizer, resource distributor, or support group leader. Visit our “Get Involved” page to learn more.",
         },
         {
-            title: "How transparent is the donation process?",
-            text: "We ensure complete transparency. You can track your donations and see how they are utilized for various projects.",
+            title: "Who does Rock the Triangle serve?",
+            text: "We serve individuals and families experiencing hardship, including financial struggles, emotional crises, or loss, regardless of their background or faith.",
         },
         {
-            title: "Can I donate in someone's honor?",
-            text: "Certainly! You can make a donation as a gift in someone's name or memory.",
+            title: "What makes Rock the Triangle unique?",
+            text: "Our approach is grounded in faith, combining spiritual encouragement with practical resources to help people rebuild on a firm foundation of hope.",
         },
         {
-            title: "What happens if the donation goal isn't met?",
-            text: "If a specific goal isn't reached, the funds are allocated to the most relevant cause or project in need of support.",
+            title: "How are donations used?",
+            text: "Donations directly support crisis relief, workshops, community programs, and essential resources for individuals and families in need.",
         },
         {
-            title: "Is there a minimum donation amount?",
-            text: "No, every contribution, regardless of size, makes a significant impact. Any amount is appreciated.",
+            title: "Is Rock the Triangle faith-based?",
+            text: "Yes, our mission is inspired by Christian principles and scripture. However, we welcome and support people from all walks of life.",
         },
         {
-            title: "Can I cancel or modify my recurring donation?",
-            text: "Yes, you have full control. You can easily modify or cancel your recurring donation at any time through your account.",
+            title: "Can I get help if I’m not religious?",
+            text: "Absolutely. Our resources and support are available to anyone in need, regardless of their religious beliefs.",
         },
         {
-            title: "Do you accept donations from outside the country?",
-            text: "Certainly! We welcome donations from across the globe. Your support knows no boundaries.",
+            title: "How can I request help from Rock the Triangle?",
+            text: "Simply visit our “Contact Us” page and fill out the form, or reach out to us by phone or email. We’re here to help you find strength and support.",
         },
         {
-            title: "What percentage of my donation covers administrative costs?",
-            text: "We ensure that the maximum portion of your donation directly funds our causes. Administrative costs are minimized to ensure impact.",
+            title: "What events does Rock the Triangle host?",
+            text: "We host workshops, support group meetings, volunteer events, and community fundraisers designed to strengthen and uplift our community.",
         },
         {
-            title: "How can I get involved beyond making a donation?",
-            text: "You can volunteer, organize fundraisers, or spread awareness about our mission to make an even greater impact.",
+            title: "Can I donate items instead of money?",
+            text: "Yes, we accept donations of essential items like clothing, camping supplies, chainsaws, fuels, and non-perishable foods. Check our donation guidelines on the website for details.",
         },
         {
             title: "Is my personal information secure when donating?",
@@ -70,8 +70,8 @@ export default function FaqPage() {
             text: "We provide regular reports and updates, ensuring donors are informed about the impact of their contributions.",
         },
         {
-            title: "Is there a way to dedicate my donation to a specific person or cause?",
-            text: "Yes, you can dedicate your donation in honor or memory of someone or specify the cause it should support.",
+            title: "Is Rock the Triangle a registered nonprofit?",
+            text: "We have filed but are not a registered 501(c)(3) nonprofit organization yet. All donations in the near future will be tax-deductible as allowed by law.",
         },
     ];
     return (

@@ -14,7 +14,7 @@ export default function BasePage({ children }) {
       <SearchBoxContext.Provider value={{ open, setOpen }}>
         <div className={open ? "relative overflow-hidden h-screen" : ""}>
           <Header />
-          <div className="bg-red-600 border-red-600 w-full "></div>
+          <div className="bg-sky-950 border-sky-950 w-full "></div>
           {children}
           <Footer />
           <SearchBox />

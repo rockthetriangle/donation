@@ -7,9 +7,9 @@ import EventPageSection from "@/app/components/main/components/event_page_sectio
 
 export async function generateStaticParams() {
   const eventNames = [
-    "supporting_hope_a_charity_gala",
-    "warmth_in_winter_clothing_drive",
-    "crisis_relief_assistance",
+    "clean_streets_stronger_community",
+    "gear_up_for_good",
+    "warmth_and_hope",
   ];
   return eventNames.map((data) => ({
     event_name: data.toString(),

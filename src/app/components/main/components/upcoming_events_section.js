@@ -6,7 +6,7 @@ import BlogCard4 from "./blog_card4";
 export default function UpcomingEventsSection() {
     return (
         <div className="flex flex-col justify-center items-center w-full h-auto py-14 gap-4">
-            <h4 className="text-xl font-bold text-red-600 capitalize text-center">
+            <h4 className="text-xl font-bold text-cyan-400 capitalize text-center">
                 our event
             </h4>
             <h2 className="flex flex-row flex-nowrap whitespace-nowrap justify-center items-center text-3xl font-bold text-black capitalize text-center">
@@ -30,7 +30,7 @@ export default function UpcomingEventsSection() {
                 <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-5 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp2.jpg"}
-                        button_color={"red-600"}
+                        button_color={"cyan-400"}
                         title={"Free medical camp"}
                         date={"12 Dec, 2023"}
                         place={"Muskmelon City"}
@@ -39,14 +39,14 @@ export default function UpcomingEventsSection() {
                 <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp1.jpg"}
-                        button_color={"red-600"}
+                        button_color={"cyan-400"}
                         title={"Free medical camp"}
                         date={"12 Dec, 2023"}
                         place={"Muskmelon City"}
                     />
                     <BlogCard4
                         src={"/img/medical_camp8.jpg"}
-                        button_color={"red-600"}
+                        button_color={"cyan-400"}
                         title={"Free medical camp"}
                         date={"12 Dec, 2023"}
                         place={"Muskmelon City"}
@@ -55,14 +55,14 @@ export default function UpcomingEventsSection() {
                 <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp4.jpg"}
-                        button_color={"red-600"}
+                        button_color={"cyan-400"}
                         title={"Free medical camp"}
                         date={"12 Dec, 2023"}
                         place={"Muskmelon City"}
                     />
                     <BlogCard4
                         src={"/img/medical_camp5.jpg"}
-                        button_color={"red-600"}
+                        button_color={"cyan-400"}
                         title={"Free medical camp"}
                         date={"12 Dec, 2023"}
                         place={"Muskmelon City"}
@@ -71,14 +71,14 @@ export default function UpcomingEventsSection() {
                 <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp6.jpg"}
-                        button_color={"red-600"}
+                        button_color={"cyan-400"}
                         title={"Free medical camp"}
                         date={"12 Dec, 2023"}
                         place={"Muskmelon City"}
                     />
                     <BlogCard4
                         src={"/img/medical_camp3.jpg"}
-                        button_color={"red-600"}
+                        button_color={"cyan-400"}
                         title={"Free medical camp"}
                         date={"12 Dec, 2023"}
                         place={"Muskmelon City"}
