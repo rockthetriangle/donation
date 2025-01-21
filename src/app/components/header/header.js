@@ -33,6 +33,11 @@ export default function Header() {
                 </Link>
               </li>
               <li className="font-scada text-md hover:text-cyan-400">
+                <Link href={"/about_us"}>
+                  <h4 className="text-inherit">About Us</h4>
+                </Link>
+              </li>
+              <li className="font-scada text-md hover:text-cyan-400">
                 <Link href={"/events"}>
                   <h4 className="text-inherit">Events</h4>
                 </Link>
@@ -48,16 +53,8 @@ export default function Header() {
                 </Link>
               </li>
               <li className="text-sm hover:text-cyan-400">
-                <Link href={"/about_us"}>
-                  <InfoCircle
-                    className="text-inherit"
-                    color="rgb(107,114,128)"
-                  />
-                </Link>
-              </li>
-              <li className="text-sm hover:text-cyan-400">
                 <a href={"/contact_us"}>
-                  <Phone className="text-inherit" color="rgb(107,114,128)" />
+                  <h4 className="text-inherit">Contact Us</h4>
                 </a>
               </li>
             </ul>
