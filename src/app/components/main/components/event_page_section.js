@@ -20,22 +20,22 @@ export default function EventPageSection({ title }) {
           alt={"Sample Event Page"}
           className={"w-full h-auto border border-gray-500 rounded-lg"}
         />
-        <h1 className="text-3xl font-bold text-slate-800">
+        <h1 className="text-3xl font-scada text-slate-800">
           Upcoming Event - {event.title}
         </h1>
-        <p className="text-xs text-slate-500">{event.description}</p>
+        <p className="text-md text-slate-500">{event.description}</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
           {event.features.map((e, index) => {
             return (
-              <div
+              <ul
                 key={String(index) + "_event_detail_value"}
-                className="w-full flex gap-3"
+                className="w-full flex gap-2"
               >
-                <div className="flex items-center gap-2">
-                  <Check2Square className="text-cyan-400 text-base" />
-                  <h5 className="text-xs text-slate-800">{e}</h5>
-                </div>
-              </div>
+                <li className="flex items-center gap-3">
+                  <Check2Square className="text-cyan-400 text-3xl" />
+                  <h5 className="text-md text-slate-800">{e}</h5>
+                </li>
+              </ul>
             );
           })}
         </div>
@@ -52,7 +52,7 @@ export default function EventPageSection({ title }) {
               <h4 className="text-base font-scada text-slate-800">
                 Event Date & Time
               </h4>
-              <p className="text-xs text-slate-500">{event.date}</p>
+              <p className="text-md text-slate-500">{event.date}</p>
             </div>
           </div>
           <div className="w-11/12 flex flex-row flex-nowrap justify-start items-start gap-4 pl-2">
@@ -61,7 +61,7 @@ export default function EventPageSection({ title }) {
               <h4 className="text-base font-semibold text-slate-800">
                 Event Venue
               </h4>
-              <p className="text-xs text-slate-500">{event.place}</p>
+              <p className="text-md text-slate-500">{event.place}</p>
             </div>
           </div>
           <div className="w-11/12 flex flex-row flex-nowrap justify-start items-start gap-4 pl-2">
@@ -70,7 +70,7 @@ export default function EventPageSection({ title }) {
               <h4 className="text-base font-semibold text-slate-800">
                 Contact Number
               </h4>
-              <p className="text-xs text-slate-500">{event.contact}</p>
+              <p className="text-md text-slate-500">{event.contact}</p>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import {ChevronRight, Clock, GeoAlt, } from "react-bootstrap-icons";
+import Button from "../../button";
 
 export default function BlogCard6({src, button_color, date, place, title, description, read_more_link, ...props}){
   return (
@@ -29,9 +30,12 @@ export default function BlogCard6({src, button_color, date, place, title, descri
         <p className="text-base text-gray-600">
           {description}...
         </p>
-        <a href={read_more_link} className={`text-base flex flex-row flex-nowrap justify-start items-center m-2 bg-${button_color} text-white p-3 rounded-lg shadow-lg shadow-gray-400 border`}>
-          Read More <ChevronRight className="text-white text-xl" />
-        </a>
+            <Button
+                color={button_color}
+                href={read_more_link}
+                text="read more"
+                className="max-[445px]:scale-125 sm:scale-110"
+            />
       </div>
     </div>
   );
