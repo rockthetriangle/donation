@@ -31,7 +31,7 @@ export default function EventsDetailPage({ params }) {
         ]}
       />
       <div className="w-full flex justify-center items-center">
-        <EventPageSection title={removeUnderscoresAndCapitalize(event_name)} />
+        <EventPageSection title={event_name} />
       </div>
       <BlackShadeSection2 />
     </BasePage>
