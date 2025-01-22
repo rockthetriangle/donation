@@ -75,7 +75,7 @@ export default function EventPageSection({ title }) {
           </div>
           <div className="w-11/12 flex flex-row flex-nowrap justify-start items-start gap-4 pl-2">
             {/* Ensure the embedded form renders correctly */}
-      		<div className="ml-embedded" data-form="vf3OBJ"></div>
+            <div className="ml-embedded" data-form="vf3OBJ"></div>
           </div>
         </div>
       </div>

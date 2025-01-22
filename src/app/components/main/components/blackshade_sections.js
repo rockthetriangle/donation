@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import React from "react";
 import Button from "../../button";
@@ -41,7 +40,8 @@ export default function BlackShadeSection() {
             className="max-[445px]:scale-125 sm:scale-110"
           />
           <Button
-            onClick={() => (window.location.href = "/contact_us")}
+            type="a"
+            href="/contact_us"
             text="Contact Us"
             color="emerald-400"
             className="max-[445px]:scale-125 sm:scale-110"
