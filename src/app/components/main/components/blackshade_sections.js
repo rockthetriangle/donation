@@ -28,9 +28,7 @@ export default function BlackShadeSection() {
           .
         </h1>
         <h5 className="text-lg text-white text-center max-w-2xl max-[445px]:px-3">
-          Donate time or resources to help others rebuild, or reach out for
-          support. Only together, we create strength, purpose, and hope to
-          withstand life’s storms.
+          He makes the whole body fit together perfectly. As each part does its own special work, it helps the other parts grow, so that the whole body is healthy and growing and full of love. Living as Children of Light [Eph 4:16]
         </h5>
         <div className="w-full flex flex-row flex-nowrap justify-center item-center gap-10">
           <Button
