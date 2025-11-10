@@ -14,9 +14,9 @@ export default function BlackShadeSection() {
       />
       <div className="absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center gap-9 sm:gap-8 bg-black bg-opacity-50 py-4">
         <h1 className="text-5xl md:text-5xl lg:text-6xl font-scada text-white text-center max-w-3xl">
-          Find Your Rock. Build Your Future on a{" "}
+          Living as Children of{" "}
           <span className="relative text-inherit">
-            Firm Foundation
+            Light
             <Image
               src={"/img/word_marker.png"}
               alt="word_marker image"
