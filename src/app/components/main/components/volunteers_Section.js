@@ -33,7 +33,7 @@ export default function VolunteersSection() {
                     button_color={"emerald-400"}
                 />
                 <BlogCard3
-                    src={"/img/brad.jpg"}
+                    src={"/img/brad_vol.jpg"}
                     title={"Bradley S"}
                     button_color={"sky-400"}
                 />

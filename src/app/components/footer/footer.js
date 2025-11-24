@@ -27,7 +27,7 @@ export default function Footer() {
         <footer className=" bg-gray-900 w-full h-fit text-white p-2">
             <div className="flex flex-row flex-wrap justify-evenly max-[445px]:justify-between md:justify-center items-start gap-4 w-full py-10">
                 <div className="flex flex-col justify-start items-start px-4 w-fit max-[445px]:w-full gap-2">
-                    <Brand size="text-2xl" />
+                    <Brand size="text-2xl" color="text-white" overlay="true" />
                     <p className="text-xs max-w-sm max-[445px]:w-full">
                         “Therefore everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock.” Matthew 7:24
                     </p>

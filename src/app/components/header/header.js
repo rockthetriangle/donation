@@ -27,32 +27,32 @@ export default function Header() {
                 menuOpen ? "flex" : "hidden"
               } min-[745px]:flex max-[745px]:absolute max-[745px]:w-full max-[745px]:top-20 max-[745px]:left-0 max-[745px]:bg-white max-[745px]:flex-wrap flex-row justify-center items-center gap-6 h-full rounded-lg`}
             >
-              <li className="font-scada text-md hover:text-cyan-400">
+              <li className="font-scada text-md hover:text-sky-950">
                 <Link href={"/"}>
                   <h4 className="text-inherit">Home</h4>
                 </Link>
               </li>
-              <li className="font-scada text-md hover:text-cyan-400">
+              <li className="font-scada text-md hover:text-sky-950">
                 <Link href={"/about_us"}>
                   <h4 className="text-inherit">About Us</h4>
                 </Link>
               </li>
-              <li className="font-scada text-md hover:text-cyan-400">
+              <li className="font-scada text-md hover:text-sky-950">
                 <Link href={"/events"}>
                   <h4 className="text-inherit">Events</h4>
                 </Link>
               </li>
-              <li className="font-scada text-md hover:text-cyan-400">
+              <li className="font-scada text-md hover:text-sky-950">
                 <Link href={"/volunteers"}>
                   <h4 className="text-inherit">Volunteers</h4>
                 </Link>
               </li>
-              <li className="font-scada text-md hover:text-cyan-400">
+              <li className="font-scada text-md hover:text-sky-950">
                 <Link href={"/faq"}>
                   <h4 className="text-inherit">Faq</h4>
                 </Link>
               </li>
-              <li className="text-sm hover:text-cyan-400">
+              <li className="font-scada text-md hover:text-sky-950">
                 <a href={"/contact_us"}>
                   <h4 className="text-inherit">Contact Us</h4>
                 </a>
@@ -60,13 +60,6 @@ export default function Header() {
             </ul>
             <ul className="flex flex-row justify-center items-center gap-3 h-8">
               <li className="w-[0.6px] h-full bg-gray-300 m-2"></li>
-              <li className="hidden min-[745px]:block text-2xl">
-                <Link href={"#account"}>
-                  <h4 className="text-inherit">
-                    <Person className="text-inherit" color="rgb(107,114,128)" />
-                  </h4>
-                </Link>
-              </li>
               <li className="hidden max-[745px]:block text-2xl">
                 <h4
                   className="text-inherit"
