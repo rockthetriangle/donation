@@ -61,7 +61,7 @@ export default function FaqSection({ more = null, large = false }) {
         <video
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover z-10"
-          src="/vid/intro.mov"
+          src="/vid/intro_lg.mp4"
           loop
           playsInline
           muted={isMuted}
