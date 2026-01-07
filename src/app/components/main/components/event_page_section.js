@@ -24,21 +24,21 @@ export default function EventPageSection({ title }) {
           Upcoming Event - {event.title}
         </h1>
         <p className="text-md text-slate-500">{event.description}</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
-          {event.features.map((e, index) => {
-            return (
-              <ul
-                key={String(index) + "_event_detail_value"}
-                className="w-full flex gap-2"
-              >
-                <li className="flex items-center gap-3">
-                  <Check2Square className="text-cyan-400 text-3xl" />
-                  <h5 className="text-md text-slate-800">{e}</h5>
-                </li>
-              </ul>
-            );
-          })}
-        </div>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+  				{event.features.map((e, index) => (
+    				<li
+      				key={`${index}_event_feature`}
+      				className="flex items-start gap-3"
+    				>
+      				<Check2Square
+        				className="text-cyan-400 w-6 h-6 shrink-0"
+      				/>
+      				<h5 className="text-md text-slate-800 leading-snug">
+        				{e}
+      				</h5>
+    				</li>
+  				))}
+				</ul>
       </div>
 
       <div className="flex flex-col justify-center-items-center p-6 flex-grow max-w-lg">

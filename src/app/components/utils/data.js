@@ -7,9 +7,9 @@ export const EVENTS = [
     description:
       "We’re transforming a camper into a mobile ministry right now!. With your hands, your heart, or your resources, Hope Caffe can roll out this January ready to serve families, churches, parks, and neighborhoods. Volunteer. Give. Pray. Build hope with us. See our needs below.",
     read_more_link: "/hope_caffe",
-    date: "December 2025",
-    place: "Raleigh, North Carolina",
-    contact: "",
+    date: "January 10, 2026 10:00am - 3:00pm",
+    place: "5801 Devon Cir., Raleigh NC 27604",
+    contact: "(919)593-7245",
     features: [
 	  "Skilled tradespeople—especially metal workers, carpenters, electricians, and painters—can help transform the camper into a fully functional mobile ministry.",
 	  "Volunteers can join our workdays to clean, paint, prep, and help with general labor as we prepare the traveling trailer.",
@@ -28,9 +28,9 @@ export const EVENTS = [
     description:
       "Help us provide warmth and bedding to those in need! Donate winter coats, sleeping bags, and camping gear to support individuals facing harsh conditions this winter. There are many this year who will not know the warmth of a home and even family who we can at lease show love.",
     read_more_link: "/gear_up_for_good",
-    date: "December 2025",
-    place: "Loading Dock, Raleigh NC",
-    contact: "",
+    date: "January 6, 2026 4:45pm - 5:15pm",
+    place: "4301 Louisburg Rd., Raleigh NC 27604",
+    contact: "(919)593-7245",
     features: [
       "Collecting winter coats, sleeping bags, and camping gear for those facing harsh conditions.",
 	  "Providing resources to individuals experiencing homelessness or displacement.",
@@ -48,16 +48,16 @@ export const EVENTS = [
     description:
       "Come away for an evening of true rest at S.P.A. Encounters — Sabbath • Presence • Adoration. Inspired by the peaceful rhythms of Sabbath and the gentle nearness of God, this gathering is designed to help you slow down, breathe deeply, and rediscover the beauty of His presence.",
     read_more_link: "/spa",
-    date: "7th Dec, 2025",
+    date: "TBD",
     place: "Wake Forest, NC 27587",
-    contact: "",
+    contact: "(919)593-7245",
     features: [
-      "Organizing a local cleanup to beautify streets and neighborhoods.",
-	  "Encouraging residents to take pride in their community.",
-	  "Providing tools and guidance to make participation easy and fun.",
-	  "Creating opportunities to meet neighbors and build connections.",
-	  "Demonstrating care for the environment through collective action.",
-	  "Leaving a lasting positive impact on the appearance and spirit of the area.",
+      "Sabbath Rest — letting your soul settle",
+	  "Divine Presence — becoming aware of God’s nearness",
+	  "Adoration — responding with gratitude and worship",
+	  "Restoration — allowing God to refresh what has grown weary",
+	  "We’ll share a full dinner together and there is no cost to attend.",
+	  "This is simply a space to rest, reconnect, and encounter the love of God in a quiet, meaningful way.",
     ],
   },
 ];
