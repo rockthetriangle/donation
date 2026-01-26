@@ -7,7 +7,7 @@ export const EVENTS = [
     description:
       "We’re transforming a camper into a mobile ministry right now!. With your hands, your heart, or your resources, Hope Caffe can roll out this January ready to serve families, churches, parks, and neighborhoods. Volunteer. Give. Pray. Build hope with us. See our needs below.",
     read_more_link: "/hope_caffe",
-    date: "January 10, 2026 10:00am - 3:00pm",
+    date: "January 31, 2026 10:00am - 3:00pm",
     place: "5801 Devon Cir., Raleigh NC 27604",
     contact: "(919)593-7245",
     features: [
