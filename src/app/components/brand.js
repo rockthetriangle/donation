@@ -14,9 +14,7 @@ export default function Brand({
         alt="Rock the Triangle"
         width={300}
         height={300}
-        className={`w-16 h-auto object-cover relative z-10 ml-20 ${
-          overlay ? "brightness-200 contrast-90" : ""
-        }`}
+        className={`w-16 h-auto object-cover relative z-10 ml-20`}
       />
 
       {/* Optional white overlay layer */}

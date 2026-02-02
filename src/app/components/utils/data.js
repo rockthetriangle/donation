@@ -7,7 +7,7 @@ export const EVENTS = [
     description:
       "We’re transforming a camper into a mobile ministry right now!. With your hands, your heart, or your resources, Hope Caffe can roll out this January ready to serve families, churches, parks, and neighborhoods. Volunteer. Give. Pray. Build hope with us. See our needs below.",
     read_more_link: "/hope_caffe",
-    date: "January 31, 2026 10:00am - 3:00pm",
+    date: "February 7, 2026 10:00am - 3:00pm",
     place: "5801 Devon Cir., Raleigh NC 27604",
     contact: "(919)593-7245",
     features: [
@@ -28,7 +28,7 @@ export const EVENTS = [
     description:
       "Help us provide warmth and bedding to those in need! Donate winter coats, sleeping bags, and camping gear to support individuals facing harsh conditions this winter. There are many this year who will not know the warmth of a home and even family who we can at lease show love.",
     read_more_link: "/gear_up_for_good",
-    date: "January 6, 2026 4:45pm - 5:15pm",
+    date: "February 3, 2026 4:45pm - 5:15pm",
     place: "4301 Louisburg Rd., Raleigh NC 27604",
     contact: "(919)593-7245",
     features: [
