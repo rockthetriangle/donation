@@ -26,7 +26,7 @@ export const EVENTS = [
     button_color: "cyan-400",
     title: "Gear Up for Good: Winter Coat & Camping Gear Drive",
     description:
-      "Help us provide warmth and bedding to those in need! Donate winter coats, sleeping bags, and camping gear to support individuals facing harsh conditions this winter. There are many this year who will not know the warmth of a home and even family who we can at lease show love.",
+      "Help us provide warmth and bedding to those in need! Donate winter coats, sleeping bags, and camping gear to support individuals facing harsh conditions this winter. There are many this year who will not know the warmth of a home and even family who we can show the love to.",
     read_more_link: "/gear_up_for_good",
     date: "Tuesday, February 24, 2026 4:45pm - 5:15pm",
     place: "4301 Louisburg Rd., Raleigh NC 27604",
