@@ -46,7 +46,7 @@ export const EVENTS = [
     button_color: "emerald-400",
     title: "Stop the Train! - Time to Experience God’s Presence",
     description:
-      "Come away for an evening of true rest at S.P.A. Encounters — Sabbath • Presence • Adoration. Inspired by the peaceful rhythms of Sabbath and the gentle nearness of God, this gathering is designed to help you slow down, breathe deeply, and rediscover the beauty of His presence. You are invited but you have to fill out the form to register. We will send you more information as the date hastens",
+      "Come away for an evening of true rest at S.P.A. Encounters — Sabbath • Presence • Adoration. Inspired by the peaceful rhythms of Sabbath and the gentle nearness of God. You are invited but you have to fill out the form to register. We will send you more information as the date hastens",
     read_more_link: "/spa",
     date: "Sunday, March 22, 2026 3:30pm - 7:30pm",
     place: "Wake Forest, NC 27587",
