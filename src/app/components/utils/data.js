@@ -7,7 +7,7 @@ export const EVENTS = [
     description:
       "We’re transforming a camper into a mobile ministry right now!. With your hands, your heart, or your resources, Hope Caffe can roll out this January ready to serve families, churches, parks, and neighborhoods. Volunteer. Give. Pray. Build hope with us. See our needs below.",
     read_more_link: "/hope_caffe",
-    date: "February 21, 2026 10:00am - 3:00pm",
+    date: "Saturday, February 21, 2026 10:00am - 3:00pm",
     place: "5801 Devon Cir., Raleigh NC 27604",
     contact: "(919)593-7245",
     features: [
@@ -28,7 +28,7 @@ export const EVENTS = [
     description:
       "Help us provide warmth and bedding to those in need! Donate winter coats, sleeping bags, and camping gear to support individuals facing harsh conditions this winter. There are many this year who will not know the warmth of a home and even family who we can at lease show love.",
     read_more_link: "/gear_up_for_good",
-    date: "February 17, 2026 4:45pm - 5:15pm",
+    date: "Tuesday, February 24, 2026 4:45pm - 5:15pm",
     place: "4301 Louisburg Rd., Raleigh NC 27604",
     contact: "(919)593-7245",
     features: [
@@ -48,7 +48,7 @@ export const EVENTS = [
     description:
       "Come away for an evening of true rest at S.P.A. Encounters — Sabbath • Presence • Adoration. Inspired by the peaceful rhythms of Sabbath and the gentle nearness of God, this gathering is designed to help you slow down, breathe deeply, and rediscover the beauty of His presence. You are invited but you have to fill out the form to register. We will send you more information as the date hastens",
     read_more_link: "/spa",
-    date: "March 22, 2026 3:30pm - 7:30pm",
+    date: "Sunday, March 22, 2026 3:30pm - 7:30pm",
     place: "Wake Forest, NC 27587",
     contact: "(919)593-7245",
     features: [
